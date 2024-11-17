@@ -1,0 +1,22 @@
+
+MQTT is a server that runs on linux
+easy apt installation
+https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
+
+test client connections
+https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/
+
+write subscriber code
+https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi
+
+write publisher code
+YouTube - Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node
+    https://www.youtube.com/watch?v=x5A5S0hoyJ0
+
+
+MQTT client is the software that runs for both publishers and subscribers
+For Python
+    paho-mqtt -> import paho.mqtt.client
+
+For ESP32
+    #include <PubSubClient.h> -> PubSubClient client(espClient);
